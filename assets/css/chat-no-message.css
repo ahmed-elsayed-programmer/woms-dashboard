@@ -1,0 +1,40 @@
+
+
+@media (min-width:993px) {
+    .content .clearfix .card{
+        height: 85vh;
+        
+    }
+}
+@media (min-width:993px){
+.content .clearfix .card .chat-history{
+    height: 60vh;
+    overflow-y: scroll;
+}
+}
+
+.chat-history::-webkit-scrollbar {
+    display: none;
+}
+
+.chat-history {
+    -ms-overflow-style: none;  
+  }
+
+   .clearfix .tab-content{
+    overflow-y: scroll;
+  }
+
+  .tab-content {
+    height: 65vh; 
+    overflow-y: scroll; 
+  }
+  
+  .tab-content::-webkit-scrollbar {
+      display: none;
+  }
+  
+  .tab-content {
+    -ms-overflow-style: none; 
+    
+}

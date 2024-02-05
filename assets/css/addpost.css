@@ -1,0 +1,17 @@
+.card .main{
+    margin-top: 50px;
+}
+.card .main form {
+    transform: translateX(35%);
+}
+
+ .card form .content textarea{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 238);
+}
+
+.card form textarea::placeholder{
+    color:gray;
+}

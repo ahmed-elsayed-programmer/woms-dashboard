@@ -1,5 +1,5 @@
  .blog-page .card .row{
-    height: 700px;
+    min-height: 600px;
     margin-left: 0;
     margin-right: 0;
     margin-top: 20px;

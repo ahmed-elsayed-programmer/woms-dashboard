@@ -1,17 +1,41 @@
-.card .main{
-    margin-top: 50px;
-}
-.card .main form {
-    transform: translateX(35%);
+ .blog-page .card .row{
+    height: 900px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
 }
 
- .card form .content textarea{
-    width: 100%;
-    border: none;
+.blog-page .card form div{
+    margin-top: 30px;
+}
+
+.blog-page .card form{
+transform: translateX(10%);
+}
+.blog-page .card form label{
+    text-align: center;
+}
+.blog-page form textarea::placeholder{
+    color: rgb(148, 142, 142);
+font-size: 20px;}
+
+.blog-page form label input{
+    display: none;
+}
+.blog-page .card label{
+    border-radius: 1px;
+}
+
+.blog-page form .large{
+    height: 200px;
+}
+
+.blog-page form textarea , .blog-page form label{
+    border: 1px solid rgb(223, 218, 218);
     border-radius: 5px;
-    background-color: rgb(238, 238, 238);
+    width: 100%;
+    background-color: rgb(245, 247, 247);
+    padding-top: 13px;
+    padding-left: 20px;
 }
 
-.card form textarea::placeholder{
-    color:gray;
-}

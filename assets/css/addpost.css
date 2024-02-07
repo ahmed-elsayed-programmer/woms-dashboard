@@ -1,5 +1,5 @@
  .blog-page .card .row{
-    height: 900px;
+    height: 700px;
     margin-left: 0;
     margin-right: 0;
     margin-top: 20px;
@@ -15,9 +15,10 @@ transform: translateX(10%);
 .blog-page .card form label{
     text-align: center;
 }
-.blog-page form textarea::placeholder{
+.blog-page form input::placeholder, textarea::placeholder{
     color: rgb(148, 142, 142);
-font-size: 20px;}
+    font-size: 20px;
+}
 
 .blog-page form label input{
     display: none;
@@ -30,12 +31,14 @@ font-size: 20px;}
     height: 200px;
 }
 
-.blog-page form textarea , .blog-page form label{
+.blog-page form input{
+    height: 50px;
+}
+.blog-page form textarea , .blog-page form label, .blog-page form input{
     border: 1px solid rgb(223, 218, 218);
     border-radius: 5px;
     width: 100%;
     background-color: rgb(245, 247, 247);
-    padding-top: 13px;
     padding-left: 20px;
 }
 

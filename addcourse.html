@@ -735,16 +735,36 @@
     
                                 </label>
                               </div>
-                              <div class="course">
-                                <h3>Add Module</h3>
+                              <div id="module">
+                                <div class="addcourse">
+                                    <h3>Add Module</h3>
+                                  </div>
+                                  <div >
+                                    <input  placeholder="Add Course Title" id="floatingTextarea">
+                                  </div>
+                                  <div>
+                                    <textarea class=" large" placeholder="Add Course Description" id="floatingTextarea"></textarea>
+                                  </div>
                               </div>
-                              <div >
-                                <input  placeholder="Add Course Title" id="floatingTextarea">
+                              <div id="container">
+                                <section id="addModule">
+                                    <div class="addcourse">
+                                        <h3>Add Module</h3>
+                                      </div>
+                                      <div >
+                                        <input  placeholder="Add Course Title" id="floatingTextarea">
+                                      </div>
+                                      <div>
+                                        <textarea class=" large" placeholder="Add Course Description" id="floatingTextarea"></textarea>
+                                      </div>
+                                      <div class="hidden">
+                                        <input  placeholder="Module Number" id="floatingTextarea" value>
+                                      </div>
+                                </section>
                               </div>
-                              <div>
-                                <textarea class=" large" placeholder="Add Course Description" id="floatingTextarea"></textarea>
-                              </div>
-
+                              <div id="button">
+                                <a class="btn btn-primary">New Module</a>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -762,5 +782,6 @@
 <script src="assets/bundles/mainscripts.bundle.js"></script><!-- Custom Js -->
 <script src="assets/js/pages/forms/editors.js"></script>
 <script src="assets/js/blogpost.js"></script>
+<script src="assets/js/addcourse.js"></script>
 </body>
 </html>

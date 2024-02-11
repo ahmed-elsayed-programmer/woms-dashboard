@@ -1,0 +1,70 @@
+.card{
+    width: 100%;
+ }
+ 
+ .blog-page .card .row{
+    min-height: 600px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+}
+
+.blog-page .card form div{
+    margin-top: 30px;
+}
+
+.blog-page .card form{
+transform: translateX(10%);
+}
+.blog-page .card form label{
+    text-align: center;
+}
+.blog-page form input::placeholder, textarea::placeholder{
+    color: rgb(148, 142, 142);
+    font-size: 20px;
+}
+
+.blog-page form label input{
+    display: none;
+}
+.blog-page .card label{
+    border-radius: 1px;
+}
+
+.blog-page form .large{
+    height: 200px;
+}
+
+.blog-page form input{
+    height: 50px;
+}
+.blog-page form textarea , .blog-page form label, .blog-page form input{
+    border: 1px solid rgb(223, 218, 218);
+    border-radius: 5px;
+    width: 100%;
+    background-color: rgb(245, 247, 247);
+    padding-left: 20px;
+}
+
+.blog-page .card .module{
+    border-top: 1px solid gray;
+}
+
+#button a{
+    font-size: 16px;
+}
+
+#addModule .hidden{
+    display: none;
+}
+#container {
+    counter-reset: section;
+}
+.hidden::before {
+    counter-increment: section;
+    content: "module " counter(section) ": ";
+}
+#button a{
+    color: #fff;
+    font-size: 14px;
+}

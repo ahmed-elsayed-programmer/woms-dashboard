@@ -1,7 +1,12 @@
 .content .card{
     margin-top: 5%;
+    height: 80vh;
+}
+.content .card h3{
+    transform: translateY(340px);
+
 }
 .content .card h3{
     color:#457fca;
-    
+    font-size: 40px;
 }
